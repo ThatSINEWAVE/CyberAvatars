@@ -6,6 +6,8 @@ Welcome to CyberAvatars, a fun project that generates unique avatars based on yo
 CyberAvatars allows users to input any text, and it generates a unique avatar associated with that text.
 Whether it's robots, monsters, kittens, or humans, CyberAvatars has got you covered!
 
+![CyberAvatars](https://github.com/ThatSINEWAVE/CyberRobots/assets/133239148/d0def393-263b-415c-8bb7-aa6f787f1e4b)
+
 </div>
 
 ## Features
