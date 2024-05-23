@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #0d0d0d;
+	color: #00ffcc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#main-container {
+	text-align: center;
+	width: 80%;
+}
+
+.screen {
+	display: none;
+}
+
+.screen.active {
+	display: block;
+	animation: fadeIn 1s;
+}
+
+h1 {
+	font-size: 3em;
+	text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+a {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+input,
+button {
+	font-size: 1.2em;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+input {
+	width: 60%;
+	margin-top: 40px;
+}
+
+button {
+	background-color: #00ffcc;
+	color: #0d0d0d;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #00997a;
+}
+
+#robot-image {
+	width: 100%;
+	max-width: 300px;
+	margin: 20px 0;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.style-btn.selected {
+	box-shadow: 0 0 20px #00ffcc;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: #00ffcc;
+}
