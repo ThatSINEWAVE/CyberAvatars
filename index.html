@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberAvatars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="input-screen" class="screen active">
+        <h1>CyberAvatars</h1>
+        <p>Enter whatever you want and we'll generate an avatar for you</p>
+        <a>(No really, enter whatever you wish, it will work)</a>
+        <input type="text" id="user-input" placeholder="Enter anything...">
+        <button id="generate-btn">Generate Avatar</button>
+        <div id="style-buttons">
+          <button class="style-btn" data-set="set1">Robots</button>
+          <button class="style-btn" data-set="set2">Monsters</button>
+          <button class="style-btn" data-set="set3">Heads</button>
+          <button class="style-btn" data-set="set4">Kittens</button>
+          <button class="style-btn" data-set="set5">Humans</button>
+        </div>
+      </div>
+      <div id="result-screen" class="screen">
+        <h1>Your Cyber Avatar</h1>
+        <img id="robot-image" src="" alt="Generated Robot">
+        <div class="button-container">
+          <button id="download-btn">Download</button>
+          <button id="try-again-btn">Try Again</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/CyberAvatars" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
