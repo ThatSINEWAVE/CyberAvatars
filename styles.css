@@ -94,6 +94,7 @@ button:hover {
 }
 
 .style-btn.selected {
+  background-color: #00997a;
   box-shadow: 0 0 20px #00ffcc;
 }
 
